@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 4293456250089572672}
   - component: {fileID: 881210343408928485}
   - component: {fileID: 3161042511625646639}
+  - component: {fileID: 6840157338371798138}
   m_Layer: 0
   m_Name: VR_Reticle_Square
   m_TagString: Untagged
@@ -83,3 +84,19 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!114 &6840157338371798138
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3521457681945940986}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 32fd1e5c48eba0f4fa5d92fcf6016ca9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  rotationSpeed: 50
+  minScale: 0.8
+  maxScale: 1.2
+  scaleSpeed: 0.5
