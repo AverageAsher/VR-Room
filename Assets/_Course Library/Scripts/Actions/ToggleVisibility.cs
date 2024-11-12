@@ -8,16 +8,13 @@ using UnityEngine;
 
 public class ToggleVisibility : MonoBehaviour
 {
-    private Renderer currentRenderer = null;
+    public GameObject[] labelObjects;
 
-    private void Awake()
+    public void ToggleLabels(bool isActive)
     {
-        currentRenderer = GetComponent<Renderer>();
-    }
-
-    public void Toggle()
-    {
-        bool isEnabled = !currentRenderer.enabled;
-        currentRenderer.enabled = isEnabled;
+        foreach (var label in labelObjects)
+        {
+            label.SetActive(isActive);
+        }
     }
 }

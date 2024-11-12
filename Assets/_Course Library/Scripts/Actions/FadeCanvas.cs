@@ -20,6 +20,7 @@ public class FadeCanvas : MonoBehaviour
     private void Awake()
     {
         canvasGroup = GetComponent<CanvasGroup>();
+
     }
 
     public void StartFadeIn()
